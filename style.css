@@ -1,3 +1,142 @@
 html {
     font-family: 'Poppins', sans-serif;
+    min-height: 100%;
+}
+
+body {
+    margin: 0% 0%;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.text-part {
+    padding-top: 80px;
+    padding-right: 80px;
+
+}
+
+.half-part p {
+    padding-bottom: 30px;
+}
+
+.red-color {
+    color: rgba(225, 14, 56, 0.907)
+}
+
+.two-section {
+    display: flex;
+
+
+
+}
+
+.half-part {
+    width: 50%;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+
+
+#top-image {
+
+    background-image: url("images/shapes/Group-8447.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+
+#top-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, rgb(255, 80, 103), rgb(186, 13, 48));
+    padding: 13px 25px;
+    font-size: 17px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+#middle-image img {
+    max-width: 60%;
+    padding-left: 50px;
+}
+
+#middle-part {
+    background-image: url(images/shapes/Frame-58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recipe-text {
+    text-align: center;
+    margin: 0px auto;
+    width: 50%;
+
+}
+
+.recipe {
+    margin: 10px 20px;
+}
+
+.recipe-card {
+    width: 33%;
+
+    margin: 10px 30px;
+    padding: 5px 10px;
+
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 300px;
+
+}
+
+.subscription form {
+    margin-left: 30%;
+    margin-right: 10%;
+    width: 50%;
+
+}
+
+.follow {
+    width: 50%;
+    text-align: center;
+    margin-right: 20%;
+}
+
+.subscription {
+    margin-top: 100px;
+    display: flex;
+}
+
+.footer {
+    margin-top: 10px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: azure;
+}
+
+.follow h2 {
+    margin-bottom: 40px;
 }
